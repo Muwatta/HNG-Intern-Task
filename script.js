@@ -1,9 +1,6 @@
-function updateTimeUTC() {
+function updateTime() {
+  const utcTimeElement = document.getElementById('utcTime');
   const now = new Date();
-  const utcString = now.toLocaleString('en-NG', { timeZone: 'UTC' });
-
-  document.querySelector('[data-testid="currentTimeUTC"]').textContent =
-    'Current Time (UTC): ' + utcString;
+  utcTimeElement.textContent = `UTC Time: ${now.toUTCString()}`;
 }
-updateTimeUTC();
-setInterval(updateTimeUTC, 1000);
+updateTime();

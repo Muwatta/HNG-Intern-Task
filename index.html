@@ -5,125 +5,76 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Abdullahi Musliudeen | Portfolio</title>
+
+  <!-- Css Link -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon Link -->
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-32x32.png">
+
+  <!-- Boxicon link -->
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
+  <!-- Display of profile card -->
+  <div class="profile-card">
 
-  <!-- Blog Post -->
-  <div id="home" class="blog-post">
-    <!-- Navigation -->
-    <nav class="navbar">
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <!--Profile image  -->
+    <img src="images/my-img.jpg" alt="Profile Picture" data-testid="profilePicture">
 
-    <!-- Profile Picture -->
-    <div class="profile-img">
-      <img data-testid="profilePicture" src="images/my-img.jpg" alt="Profile Picture" class="img">
+    <!-- Profile name -->
+    <div class="profile-name-job-describtion">
+      <h2 data-testid="fullName">Abdullahi Oladipupo</h2>
+
+      <!-- Profile job -->
+      <h4 data-testid="jobTitle">Web Developer | Educator</h4>
     </div>
 
-    <div class="name-job-describtion">
-      <!-- Full Name -->
-      <h2 data-testid="fullName">Abdullahi Musliudeen</h2>
-
-      <!-- Job Title -->
-      <h3 data-testid="jobTitle">Frontend developer <i class='bx bxs-bell bx-spin-tada-hover'></i>
-      </h3>
+    <!-- Profile Bio -->
+    <div class="profile-bio">
+      <p data-testid="shortBio">Seasoned web developer with expertise in building responsive, user-friendly applications
+        that enhance user experience
+        and functionality.</p>
     </div>
 
-    <!-- Short Bio -->
-    <div data-testid="shortBio" class="para">
-      <p>
-      <h4 class="subject">Why I Want to Be a Frontend Developer and How HNG Will Help Me Achieve My Goals</h4>
 
-      Every seasoned developer has a starting point, and for me,<strong> frontend development</strong> is more than just
-      writing
-      code;
-      it's
-      about
-      creating seamless user experiences that bring ideas to life. <p class="p1"> My passion for technology and design
-        led me down
-        this
-        path,
-        but the journey isn’t always smooth. It requires continuous learning, hands-on experience, and the right
-        community.
-        That’s why I want to be a frontend developer and why I joined HNG.
+    <!-- myCurrentLocation -->
+    <div class="currentLocation">
+      <p data-testid="currentLocation">Jos, Nigeria</p>
+    </div>
 
-        HNG is more than just an internship; it’s an intense, fast-paced, and result-driven experience that pushes
-        developers to
-        their limits while equipping them with real-world skills.</p>
-      <p class="p2" id="about"> For someone like me, who is eager to grow in frontend
-        development, HNG provides the perfect ecosystem. The structured learning, mentorship from industry experts, and
-        exposure
-        to real-world projects are exactly what I need to refine my skills and step up my game.
-
-        My primary goal for this internship is to sharpen my proficiency in frontend technologies, especially in React
-        and
-        JavaScript. I want to build scalable, responsive, and interactive applications that solve real problems. </p>
-      <p class="p3"> For
-        interactive
-        UIs, you can even <a href="https://github.com/Muwatta">Hire React.js Developer</a> to speed up development,
-        reflecting the industry's
-        standard of
-        excellence. Beyond the technical aspect, I aim to improve my collaboration skills, work with diverse teams, and
-        understand best practices in software development.
+    <!-- Email Address -->
+    <div class="emailAddress">
+      <p>Email: <a href="mailto:abdullahmusliudeen@gmail.com"
+          data-testid="emailAddress">abdullahmusliudeen@gmail.com</a>
       </p>
+    </div>
 
-      <p class="p4">To achieve these goals in the next eight-week, I plan to be intentional about learning, actively
-        engage with my
-        mentors, complete tasks
-        diligently, and contribute effectively to team projects. I also intend to push my limits by exploring new
-        technologies
-        and tackling challenging problems head-on.
-
-        By the end of the two-month, I want to emerge as a more confident, skilled, and industry-ready frontend
-        developer.
-        This
-        internship
-        is my stepping stone to a brighter tech future, and I’m ready to make the most of it!
-      </p>
-      </p>
-
-      <!-- Current Location -->
-      <p data-testid="currentLocation" class="currentLocation">Jos, Nigeria</p>
-
-      <!-- Email Address -->
-      <div class="email-address">
-        <p data-testid="emailAddress">
-          <a href="#">Hire me <i class="bx bx-chevron-down"></i>
-          </a>
-        </p>
-      </div>
-
-      <!-- Social Links -->
-      <div class="social-links" id="contact" data-testid="socialLinks">
-        <a href="https://www.linkedin.com/in/abdullahi-musliudeen-166b751b6" style="background: #0a66c2;">
-          <i class="bx bxl-linkedin"></i>
-        </a>
-        <a href="https://github.com/Muwatta" style="background: #181717;">
-          <i class="bx bxl-github"></i>
-        </a>
-        <a href="https://x.com/MusliudeenAbdu1" style="background: #1da1f2;">
-          <i class="bx bxl-twitter"></i>
-        </a>
-        <a href="https://x.com/MusliudeenAbdu1" style="background: #25D366;">
-          <i class="bx bxl-whatsapp"></i>
-        </a>
-      </div>
+    <!-- Social links -->
+    <div class="social-links" id="contact" data-testid="socialLinks">
+      <a href="https://www.linkedin.com/in/abdullahi-musliudeen-166b751b6" style="background: #0a66c2;">
+        <i class="bx bxl-linkedin"></i>
+      </a>
+      <a href="https://github.com/Muwatta" style="background: #181717;">
+        <i class="bx bxl-github"></i>
+      </a>
+      <a href="https://x.com/MusliudeenAbdu1" style="background: #1da1f2;">
+        <i class="bx bxl-twitter"></i>
+      </a>
     </div>
 
     <!-- Current Time in UTC -->
-    <div class=" footer">
-      <p data-testid="currentTimeUTC"></p>
+    <div class="footer">
+      <p data-testid="currentTimeUTC" id="utcTime"></p>
     </div>
   </div>
-  <script src="script.js"></script>
+
+
+
+  <!-- Javascript link -->
+  <script src="script.js">
+  </script>
 </body>
 
 </html>
