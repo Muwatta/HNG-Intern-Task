@@ -31,7 +31,7 @@ body {
   border-radius: 50%;
   border: 3px solid #2980b9;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .profile-card img:hover {
@@ -43,6 +43,7 @@ body {
   background: #34495e;
   padding: 0 2px;
   border-radius: 8px;
+  margin-bottom: 15px;
 }
 
 .profile-name-job-describtion h2 {
@@ -69,6 +70,7 @@ body {
   padding: 0 10px;
   color: #2c3e50;
   font-size: 14px;
+  margin-bottom: 15px;
 }
 
 .currentLocation {
@@ -84,6 +86,7 @@ body {
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
   width: fit-content;
   margin: 10px auto;
+  margin-bottom: 15px;
 }
 
 .currentLocation p {
